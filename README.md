@@ -67,7 +67,8 @@ following:
 * a `toppings` property that is either one of `ketchup`, `onions`, `pickles`,
   `mustard`, and `mayonnaise`
 
-``` db.burgers.insertMany([
+```
+   db.burgers.insertMany([
   { patty: 'beef', cheese: true, toppings: ['ketchup'] },
   { patty: 'turkey', cheese: false, toppings: ['onions'] },
   { patty: 'veggie', cheese: true, toppings: ['pickles'] },
